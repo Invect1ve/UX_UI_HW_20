@@ -27,7 +27,49 @@
   .navigation ul {
     color: black;
     font-size: 16pt;
+    margin-top: 30px;
   }
 
-  /* Header 2*/
-  
+/* Header 2*/
+.secondNav {
+  background-color: black;
+  padding: 20px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("../Images/Drawchange Prototype 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  height: calc(100vh-25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumboCopy {
+  width: 70px;
+  min-width: 500px;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 300px;
+  border-radius: 25px;
+}
+
+/* Content 1*/
+.sideAccent {
+  background: #007bff;
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
